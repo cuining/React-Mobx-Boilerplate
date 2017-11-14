@@ -1,2 +1,4 @@
 # React-Mobx-Boilerplate
-react mobx 
+react mobx antd axios downloadjs code-spliting dynamic-loading
+
+just a backup

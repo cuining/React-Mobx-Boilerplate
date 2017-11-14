@@ -67,8 +67,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2",
-    "react-transition-group": "^2.2.0",
-    "recharts": "^1.0.0-alpha.3"
+    "react-transition-group": "^2.2.0"
   },
   "standard": {
     "parser": "babel-eslint",

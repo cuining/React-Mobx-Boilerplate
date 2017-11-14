@@ -1,4 +1,4 @@
-import '../styles/index.scss'
+import './styles/index.scss'
 import 'antd/lib/upload/style'
 
 import React from 'react'
@@ -11,7 +11,7 @@ import { AppContainer } from 'react-hot-loader'
 import 'lazysizes'
 import 'core-js/shim'
 import App from './App'
-import stores from '../stores'
+import stores from './stores'
 
 useStrict(true)
 

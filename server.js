@@ -35,7 +35,7 @@ new WebpackDevServer(
     resolve: {
       extensions: ['.js', '.jsx', 'scss'],
       alias: {
-        '@': path.join(__dirname, './'),
+        '@': path.join(__dirname, './src'),
         'config': configPath
       }
     },
