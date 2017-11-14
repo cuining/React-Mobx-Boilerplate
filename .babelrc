@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "target": "safari 10",
+        "useBuiltIns": true
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-runtime",
+    "inline-react-svg",
+    ["import", { "libraryName": "antd", "style": true }]
+  ]
+}

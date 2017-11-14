@@ -1,0 +1,115 @@
+.ant-upload-list-picture {
+  .ant-upload-list-item {
+    margin: 0;
+    border-color: #dddddd !important;
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    padding: 5px 30px !important;
+  }
+
+  .ant-upload-list-item.hide {
+    display: none;
+  }
+
+  .ant-upload-list-item-thumbnail {
+    top: 6px !important;
+    left: 30px !important;
+    height: 52px !important;
+    width: 52px !important;
+    img {
+      border-radius: 0 !important;
+    }
+  }
+
+  .ant-upload-list-item-error {
+    color: inherit !important;
+  }
+
+  .ant-upload-list-item-actions {
+    position: absolute;
+    line-height: 1;
+    top: 24px;
+    right: 30px;
+    .anticon-reload {
+      position: absolute;
+      right: 28px;
+    }
+  }
+
+  .ant-upload-list-item-actions:hover {
+    .anticon-reload {
+      color: #282828;
+    }
+  }
+
+  .ant-upload-list-item-name {
+    line-height: 52px !important;
+    padding-left: 64px !important;
+  }
+
+  .ant-upload-list-item-progress {
+    padding-left: 73px !important;
+    top: 55px;
+    padding-right: 100px;
+    width: 100%;
+  }
+
+  .ant-upload-list-item-status {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    top: 0;
+    right: 97px;
+    height: 63px;
+
+    .status-error-detail {
+      font-size: 12px;
+      position: absolute;
+      bottom: 0;
+      right: 4px;
+      color: #EA4335;
+      width: 200%;
+      text-align: right;
+    }
+  }
+}
+
+.ant-upload-list-text {
+  .ant-upload-list-item {
+    .custom-svg {
+      position: absolute;
+      cursor: pointer;
+      right: 4px;
+      line-height: 1;
+    }
+
+    .status-error-text-detail {
+      position: absolute;
+      width: 50%;
+      right: 0;
+      height: 100%;
+      top: 0;
+      text-align: right;
+      height: 24px;
+      line-height: 24px;
+      margin-right: 30px;
+      color: #F4523B;
+    }
+
+    .ant-upload-list-item-actions {
+      position: absolute;
+      line-height: 1;
+      top: 5px;
+      right: 0px;
+
+      .anticon-reload {
+        position: absolute;
+        right: 24px;
+      }
+    }
+  }
+}

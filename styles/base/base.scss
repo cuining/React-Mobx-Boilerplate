@@ -1,0 +1,54 @@
+body {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-width: 1280px;
+}
+
+[class*='aligner-center'] {
+  display: flex !important;
+}
+
+.aligner-center-horitzontal {
+  justify-content: center;
+}
+
+.aligner-center-vertical {
+  align-items: center;
+}
+
+.flex-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lazyload,
+.lazyloading,
+.lazyload + .priview-image-off,
+.lazyloading + .priview-image-off {
+  opacity: 0;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+  background-color: #f9f9f9;
+}
+
+.extend-via-pseudo-elem {
+  position: relative;
+  display: flex;
+}
+
+.extend-via-pseudo-elem::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -8px;
+  bottom: -15px;
+  left: -8px;
+}

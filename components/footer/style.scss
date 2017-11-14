@@ -1,0 +1,27 @@
+@import '../../styles/base/variables';
+
+.z-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 105px;
+  padding: 27px 15px;
+  background-color: $secondary;
+  color: $lightsand;
+  width: 100%;
+  nav a + a::before {
+    content: '|';
+    margin: 0 15px;
+    color: $lightsand;
+    display: inline-block;
+  }
+
+  nav a {
+    color: $lightsand;
+  }
+
+  nav a:hover {
+    color: $primary;
+  }
+}
